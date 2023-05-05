@@ -1,0 +1,21 @@
+use WebApplication1
+
+
+INSERT  components (componenet_name) VALUES ('SEAT')
+INSERT  components (componenet_name) VALUES ('PEDAL')
+INSERT  components (componenet_name) VALUES ('WHEEL')
+INSERT  components (componenet_name) VALUES ('FRAME')
+INSERT  components (componenet_name) VALUES ('TUBE')
+
+INSERT  depended (component_id,depended_id,quantity) VALUES (1,1,1)
+INSERT  depended (component_id,depended_id,quantity) VALUES (2,2,1)
+INSERT  depended (component_id,depended_id,quantity) VALUES (3,4,1)
+INSERT  depended (component_id,depended_id,quantity) VALUES (3,5,1)
+INSERT  depended (component_id,depended_id,quantity) VALUES (4,4,1)
+INSERT  depended (component_id,depended_id,quantity) VALUES (5,5,1)
+
+INSERT  dbo.[schema] (component_id,quantity) VALUES (1,1)
+INSERT  dbo.[schema] (component_id,quantity) VALUES (2,2)
+INSERT  dbo.[schema] (component_id,quantity) VALUES (3,2)
+
+
